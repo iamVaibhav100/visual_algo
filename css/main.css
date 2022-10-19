@@ -9,7 +9,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #ddd;
+  background-color: #2F3136;
   font-family: arial;
 }
 
@@ -24,7 +24,7 @@ nav header {
   padding: 24px;
 
   text-align: center;
-  background-color: rgba(51, 0, 255, 0.85);
+  background-color: #202225;
   color: #fff;
 }
 
@@ -38,7 +38,16 @@ nav div {
   background-color: #eee;
 }
 nav div a {
+  color: #202225;
+  text-decoration: none;
+  border-radius: 5%;
+  padding: 10px 20px;
   margin: 0 20px;
+}
+
+nav div a:hover {
+  background-color: #2F3136;
+  color: #fff;
 }
 
 .wrapper {
@@ -50,9 +59,10 @@ nav div a {
 button,
 input[type="button"],
 select {
-  background-color: #3333aa;
+  background-color: #FFFFFF;
   border: none;
-  color: white;
+  border-radius: 5%;
+  color: #202225;
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
@@ -65,13 +75,14 @@ select {
 button:hover,
 input[type="button"]:hover,
 select:hover {
-  background-color: #0000aa;
+  color: #fff;
+  background-color: #202225;
 }
 
 /* Animation time controls Styles*/
 .animationControl label {
   font-size: 20px;
-  color: rgba(51, 0, 255, 0.8);
+  color: #3EA8FF;
 }
 #animationTime {
   appearance: none;
@@ -80,7 +91,7 @@ select:hover {
   border: 1px solid #ddd;
   border-radius: 3px;
   outline: none;
-  background-color: rgba(51, 0, 255, 0.85);
+  background-color: #3EA8FF;
   box-shadow: 0px 0px 1px #fff, inset 0px 0px 1px #ddd;
 }
 
@@ -91,12 +102,16 @@ select:hover {
   border-radius: 4px;
   padding: 3px 20px;
   margin-left: 10px;
-  color: rgba(51, 0, 255, 0.6);
-  border: 2px solid rgba(51, 0, 255, 0.6);
+  color: #3EA8FF;
+  border: 2px solid #3EA8FF;
 }
 
 
 .flex {
   display: flex;
   justify-content: space-around;
+}
+
+.result_logs {
+  color: #fff;
 }

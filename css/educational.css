@@ -11,6 +11,7 @@
 }
 
 #boardStats {
+  color: #fff;
   margin-top: 15px;
   text-align: center;
 }
@@ -55,14 +56,14 @@
 }
 
 .ideal {
-  color: rgba(51, 0, 255);
+  color: #fff;
 }
 .swap {
-  color: rgba(255, 0, 51);
+  color: #3EA8FF;
 }
 .compare {
-  color: rgba(204, 0, 204);
+  color: #0073cf;
 }
 .select {
-  color: rgba(51, 0, 255);
+  color: #fff;
 }

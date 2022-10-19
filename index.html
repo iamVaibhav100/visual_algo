@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Algorithm Visualization</title>
+    <title>Visual Algo</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -11,20 +11,19 @@
     <!--nav bar-->
     <nav>
       <header>
-        <h1>Algorithm Visualization</h1>
+        <h1>Visual Algo</h1>
       </header>
       <div>
         <a href="./index.html">Normal Mode</a>
         <a href="./educational.html">Educational Mode</a>
         <a href="./comparison.html">Comparison Mode</a>
-        <a href="./about.html">About Us</a>
       </div>
     </nav>
       
     <div class="wrapper">
       <!--Algorithm controls -->
       <div class="container controls">
-        <!--buttons like randomize the values and change the visualized algorithm-->
+        <!--buttons like randomize the values and change the algorithm-->
         <div class="buttons">
           <button id="randBtn">Randomize</button>
           <select name="algorithms" id="algorithms">
@@ -46,7 +45,7 @@
         <!--controls to change the animation -->
         <div class="animationControl">
           <!--change the time of the animation-->
-          <label>Animation Time:</label>
+          <label>Animation Speed:</label>
           <input
             type="range"
             min=".1"
@@ -63,7 +62,7 @@
         <canvas id="mainCanvas" width="600px" height="400px"></canvas>
       </div>
         
-      <div>
+      <div class="result_logs">
         <pre id="boardStats"></pre>
       </div>
     </div>     

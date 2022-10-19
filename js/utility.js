@@ -86,11 +86,11 @@ function isSorted(arr) {
 // data
 
 const colors = {
-  ideal: "rgba(51, 0, 255, .6)",
-  swapped: "rgba(255, 0, 51, .6)",
-  compared: "rgba(204, 0, 204, .6)",
+  ideal: "#FFF",
+  swapped: "#3EA8FF",
+  compared: "#48C78E",
   okay: "rgba(0, 151, 51, .6)",
-  selected: "rgba(51, 0, 255, 1)"
+  selected: "#B5B5B5"
 };
 
 const operations = {
